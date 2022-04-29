@@ -1,9 +1,23 @@
 body {
-    background-color: #292C35;
+    margin: 0;
+    padding: 0;
+    background-color: #F1F1F1;
 }
 
-.dark {
+.container {
+    height: 100vh;
+    margin: auto;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;  
+}
+
+#btn {
+    margin: 10px;
+    padding: 10px;
+}
+
+#btn2 {
+    margin: 10px;
+    padding: 10px;
 }

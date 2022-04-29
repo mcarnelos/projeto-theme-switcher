@@ -9,9 +9,12 @@
 </head>
 <body>
 
-    
-    <div class="dark">
-        <img src="./assets/moon.svg" alt="dark">
+    <div class="container">
+        <img id="light" src="./assets/moon.svg" alt="light" width="50">
+        <input type="submit" id="btn" value="Noite" onclick="troca_cor_light()">
+        
+        <img id="dark" src="./assets/sun.svg" alt="dark" width="50">
+        <input type="submit" id="btn2" value="Dia" onclick="troca_cor_dark()"> 
     </div>
 
     <script src="./script.js"></script>
